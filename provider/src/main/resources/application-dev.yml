@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: provide-service
+
+server:
+  port: 9091
+
+
+nacos:
+  discovery:
+    server-addr: 127.0.0.1:8848
+    namespace: 7e8c21f2-1384-4b40-809c-aa860e64ac22
